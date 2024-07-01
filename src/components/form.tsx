@@ -12,10 +12,9 @@ export const Form: FC = () => {
   };
 
   return (
-    <div className="w-96 m-auto mt-8">
+    <div className="w-96 mx-auto mt-8">
       <Autocomplete
         onInput={handleTextChange}
-        onChange={handleTextChange}
         listboxProps={{ emptyContent: "Type something to search" }}
         placeholder="Search for places"
       >
